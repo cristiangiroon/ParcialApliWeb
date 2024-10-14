@@ -12,3 +12,6 @@ export function useCounter(initialValue: number) {
     decrement,
   };
 }
+
+
+// Este composable encapsula la lógica del contador con las funciones increment y decrement, utilizando un ref para mantener el estado reactivo de contador
